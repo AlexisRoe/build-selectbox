@@ -22,5 +22,12 @@ body {
     height: 400px;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 10px 10px 20px gray, 30px 30px 50px rgb(148, 148, 148);
+}
+
+label {
+    margin-right: 2rem;
 }
