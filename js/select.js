@@ -66,7 +66,6 @@ function setupCustomElement(select) {
     select.labelElement.addEventListener('click', () => {
         select.optionsCustomElement.classList.toggle('show');
     });
-
     select.customElement.addEventListener('blur', () => {
         select.optionsCustomElement.classList.remove('show');
     });
