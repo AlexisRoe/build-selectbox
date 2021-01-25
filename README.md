@@ -121,6 +121,24 @@ select.customElement.tabIndex = 0;
 
 <br/>
 
+**scroll to a specific item**
+
+```css
+.custom-select-options {
+    ...
+    max-height: 200px;
+    overflow: scroll;
+}
+```
+
+```js
+...
+newCustomElement.scrollIntoView({ block: 'nearest' });
+...
+```
+
+<br/>
+
 **react on loosing focus on an element**
 
 ```js
